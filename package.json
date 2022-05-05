@@ -1,0 +1,29 @@
+{
+    "name": "daxmlbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.26.1",
+        "body-parser": "^1.20.0",
+        "cat-api": "^1.2.1",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "mongoose": "^6.3.0",
+        "mssql": "^8.1.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "node-telegram-bot-api": "^0.56.0",
+        "tedious": "^14.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
